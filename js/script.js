@@ -5,9 +5,9 @@ document.addEventListener('DOMContentLoaded', () => {
         "No eres canción, pero desde que apareciste… mi corazón tiene un nuevo ritmo.",
         "Eres como un atardecer en la playa: imposible de ignorar, imposible de olvidar.",
         "No busco mil amores. Solo quiero uno… que se parezca a ti.",
-        "Helian Rosiwar Herrera Alonso… si tu nombre fuera un verso, yo lo repetiría en todos mis poemas.",
+        "Helian Rosiwar Herrera Alonso… si tu nombre fuera un verso, lo repetiría en todos mis poemas.",
         "No vine a impresionarte. Vine a mostrarte lo que se siente cuando alguien de verdad quiere conocerte.",
-        "Antes de cerrar esta conversación, tenía que decirlo… me gustas, y mucho.",
+        "Antes de cerrar esta conversación, tenía que decirlo: me gustas… y mucho."
     ];
 
     const messageElement = document.getElementById('message');
@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
             messageElement.textContent = messages[currentIndex];
             currentIndex++;
         } else {
-            alert("Gracias, por regalarme un pedacito de tu tiempo tan valioso ❤️");
-            btn.disabled = true; // Desactiva el botón para que no sigan los clics
+            alert("Gracias por regalarme un pedacito de tu tiempo tan valioso, Helian ❤️");
+            btn.disabled = true;
         }
     });
 });
