@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "No busco mil amores. Solo quiero uno… que se parezca a ti.",
         "Helian Rosiwar Herrera Alonso… si tu nombre fuera un verso, yo lo repetiría en todos mis poemas.",
         "No vine a impresionarte. Vine a mostrarte lo que se siente cuando alguien de verdad quiere conocerte."
+        "Antes de cerrar esta conversación, tenía que decirlo… me gustas, y mucho."
     ];
 
     const messageElement = document.getElementById('message');
